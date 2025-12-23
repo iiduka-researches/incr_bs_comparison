@@ -4,7 +4,7 @@
 
 ## Wandb Setup
 
-`"cifar100.py"`のentity名の XXXXXX を、あなたの wandb エンティティ名に変更してください。
+`"cifar100.py"`のentity名 XXXXXX を、自分の wandb エンティティ名に変更してください。
 
 ```bash
 wandb.init(config=config, project=wandb_project_name, name=wandb_exp_name, entity="XXXXXX")
