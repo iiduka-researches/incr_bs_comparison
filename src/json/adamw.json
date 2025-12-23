@@ -1,0 +1,11 @@
+{
+  "optimizer": "adamw",
+  "bs_method": "exp_growth",
+  "lr_method": "constant",
+  "init_bs": 8,
+  "init_lr": 0.001,
+  "epochs": 300,
+  "incr_interval": 30,
+  "bs_growth_rate": 2.0,
+  "use_wandb": true
+}
