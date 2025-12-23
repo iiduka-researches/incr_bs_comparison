@@ -1,6 +1,6 @@
 # 増加バッチサイズを利用するオプティマイザの比較
 
-分類クラス数$k=100$、訓練データの総数$n=50,000$、テストデータの総数$t=10,000$からなる画像分類用のベンチマークデータセットCIFAR-100(Canadian Institute For Advanced Research)を用いて、畳み込みニューラルネットワークResNet-18(ResidualNetwork；残差ネットワーク)を訓練します。
+分類クラス数 $k=100$ 、訓練データの総数 $n=50,000$ 、テストデータの総数 $t=10,000$ からなる画像分類用のベンチマークデータセットCIFAR-100(Canadian Institute For Advanced Research)を用いて、畳み込みニューラルネットワークResNet-18(ResidualNetwork；残差ネットワーク)を訓練します。
 
 ## Wandb Setup
 
