@@ -70,7 +70,7 @@ if __name__ == '__main__':
     if use_wandb:
         wandb_exp_name = get_config_value(config, "optimizer")
         wandb_project_name = "CIFAR-100"
-        wandb.init(config=config, project=wandb_project_name, name=wandb_exp_name)
+        wandb.init(config=config, project=wandb_project_name, name=wandb_exp_name, entity="XXXXXX")
 
     for epoch in range(start_epoch, epochs):
         batch_size = bs_scheduler.get_batch_size()
