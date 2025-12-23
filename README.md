@@ -49,7 +49,7 @@ $$
 \theta_{t+1}=\theta_{t}-\frac{\eta}{\sqrt{\hat{v}_t}+\epsilon}\hat{m}_t
 $$
 
-- AdamW：定数ステップサイズ（ $\eta=0.001$ ）と指数増加バッチサイズ$b_t$を利用するAdamW（ $\beta_1=0.9,\beta_2=0.999,\lambda=0.01$ ）
+- AdamW：定数ステップサイズ（ $\eta=0.001$ ）と指数増加バッチサイズ $b_t$ を利用するAdamW（ $\beta_1=0.9,\beta_2=0.999,\lambda=0.01$ ）
   
 $$
 m_t = \beta_1 m_{t-1} + (1-\beta_1)\nabla f_{B_t}(\theta_t), \quad \hat{m}_t = \frac{m_t}{1-\beta_1^t}
